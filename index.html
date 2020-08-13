@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Document</title>
+</head>
+
+<body>
+  <header>
+    <article>
+      <label title="банка">До<input maxlength="26" class="toFieldWidth" /></label>
+      <label>Клон<input maxlength="26" class="branchFieldWidth" /></label>
+      <label>Адрес<input maxlength="26" class="addressFieldWidth" /></label>
+    </article>
+    <article>
+      <label title="място и дата на подаване"><input class="longFields" maxlength="40" /></label>
+      <label></label>
+      <label title="подпис на вносителя"><input class="longFields" /></label>
+    </article>
+  </header>
+  <main>
+    <p class="coloredFields"><label>В полза на - <span>име</span><input maxlength="26" /></label></p>
+    <p class="iban"><label>IBAN на получателя <input maxlength="26" /></label></p>
+    <p><label>При банка - <span>банка, клон</span><input maxlength="26" /></label></p>
+    <p class="fourLabelsParagraph">
+      <label class="width6"><span>ВНОСНА БЕЛЕЖКА</span></label>
+      <label class="width5"><span>Внесохме <br />в брой</span></label>
+      <label class="width3">Вид валута<input class="currency" maxlength="3" /></label>
+      <label class=" width12  coloredFields">Сума <input class="amount" maxlength="12" /></label>
+    </p>
+    <p><label>С думи<input type="text" spellcheck="false" class="fullWidthFields" maxlength="26" /></label></p>
+    <p>
+      <label>Вносител - <span>име</span><input type="text" spellcheck="false" class="fullWidthFields"
+          maxlength="26" /></label>
+    </p>
+    <p><label>Основание за внасяне<input type="text" spellcheck="false" class="fullWidthFields"
+          maxlength="26" /></label></p>
+    <p class="twoColumnsParagraph coloredFields">
+      <label>Банков служител</label>
+      <label>Касиер</label>
+    </p>
+    <aside>
+      <span>1092F</span>
+      <span><i>@ Вега-33</i></span>
+      <span>11,2009</span>
+      <img src="barcode.png" alt="barcode" />
+    </aside>
+  </main>
+
+
+</body>
+
+</html>
